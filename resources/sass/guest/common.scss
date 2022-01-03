@@ -1,0 +1,83 @@
+// FONT => Readex Pro
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+// font-family: 'Readex Pro', sans-serif;
+
+// FONT => Raleway
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// font-family: 'Raleway', sans-serif;
+
+// FONT => Caveat Brush
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+// font-family: 'Caveat Brush', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Prompt:wght@300&display=swap');
+//font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+// Font-awesome
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+// TomTom
+@import "@tomtom-international/web-sdk-maps";
+//piu' scuro
+$darker:#113950;
+//blu scuro
+$peacock:#16697a;
+//blu medio
+$mediumblue : #489fb5;
+//azzurro
+$lightblue : #82c0cc;
+//arancione
+$orange:#ffa628;
+//beige
+$beige:#ede7e3;
+// Reset
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+// Font
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color:$peacock;
+    color:$beige;
+}
+
+//button
+.ms_btn{
+    padding:13px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: $beige;
+    &:hover{
+        box-shadow: 1px 1px 2px rgba(150, 147, 147, 0.603);
+        cursor: pointer;
+        transform:scale(1.02);
+    }
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height:5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:$mediumblue; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $lightblue; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $lightblue; 
+  }

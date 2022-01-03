@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//common
+@import './partials/common';
+
+//user
+@import './partials/user';
+
+//apartment
+@import './partials/apartment';
+
+
+.ms_pb_4 {
+    padding-bottom: 2.2rem !important;
+}
+
+.ms_invisible {
+    color: #cecece80;
+    background-color: #489fb5;
+}
