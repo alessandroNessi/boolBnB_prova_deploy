@@ -43,6 +43,6 @@ Route::middleware('auth')->namespace('Admin')->name('admin.')->prefix('admin')->
 });
 
 // rotte pubbliche
-Route::get('/{any}', 'PageController@index')->where('any', '.*')->name('Guest');
+Route::get('/{any}', 'PageController@index')->where('any', '.*')->name('guest.index');
 Route::post('/messages/store/{id}', 'MessageController@store')->name('message.store');
 // Route::get('/guest', 'PageController@index')->name('guest.index');
